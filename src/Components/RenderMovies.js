@@ -30,7 +30,7 @@ function RenderMovies({ movies }) {
     });
 
     return (
-        <div className='grid grid-cols-4'>
+        <div className='grid grid-cols-2 md:grid-cols-4'>
             {listItems}
             {
                 seeDetails ?
