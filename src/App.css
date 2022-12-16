@@ -1,0 +1,152 @@
+.app {
+    margin: 0em 8em 0em 8em;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 1em 0em 1em ;
+}
+
+.search-input {
+    background-image: url("https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png");
+    background-size: 20px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding: 0.5em 0.5em 0.5em 2.25em;
+    border: 1.5px solid rgba(0, 0, 0, 0.384);
+}
+
+.search-input:focus {
+    outline: none;
+    border: 1.5px solid rgba(0, 0, 0, 0.384);
+}
+
+.line {
+    width: 98%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.384);
+    margin: 0em 1em 2em 1em;
+}
+
+.grid {
+    place-items: center;
+    width: 100%;
+}
+
+.grid-title {
+    padding: 0;
+    margin: 0em 0em 0em 0.75em;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.movie {
+    width: 18vw;
+    height: 38vh;
+    position: relative;
+    margin: 1em 1em 1em 1em;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0px 5px 10px #88888847;
+    cursor: pointer;
+}
+
+.movie:hover {
+    box-shadow: 0px 5px 10px #6060607a;
+}
+
+.mov-title {
+    background-color: white;
+    padding: 0.8em 0em 0.8em 0em;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mov-avg {
+    height: 35px;
+    width: 35px;
+    padding-top: 2px;
+    font-weight: 500;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #000000c5;
+    z-index: 10;
+}
+
+.details {
+    position: relative;
+    background-color: white;
+    width: 40%;
+    padding: 1em 1.25em 1em 1.25em;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.close-butt {
+    padding: 0px 6px 0px 6px;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: black;
+    border-width: 1px;  
+    cursor: pointer;  
+}
+
+.expand-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0em 1em 0em;
+}
+
+.movie-img {
+    height: 40vh;
+}
+
+.movie-text-container {
+    overflow-y: scroll;
+    display: flex;
+    height: 40vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
