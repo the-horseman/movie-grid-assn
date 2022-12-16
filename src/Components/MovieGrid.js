@@ -10,7 +10,7 @@ function Movie_grid({ movies, setMovies }) {
             .then((response) => {
                 setMovies(response.data.results)
             });
-    }, []);
+    }, [setMovies]);
 
     return (
         <div style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
