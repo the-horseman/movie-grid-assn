@@ -103,7 +103,7 @@
     padding: 0;
     margin: 0;
     position: fixed;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -149,6 +149,16 @@
 
 .movie-img {
     height: 40vh;
+}
+
+@media screen and (max-width: 768px) {
+    .movie-img {
+        height: 30vh;
+    }
+    .details {
+        width: 90%;
+        height: 50vh;
+    }
 }
 
 .movie-text-container {
